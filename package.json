@@ -1,0 +1,24 @@
+{
+  "name": "nodebb-plugin-hide-links-to-guests",
+  "version": "1.0.0",
+  "description": "Hide links to guest for NodeBB",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Skramewell/nodebb-plugin-hide-links-to-guests"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "filter",
+    "post",
+    "content",
+    "group"
+  ],
+  "author": {
+    "name": "Skramewell",
+    "email": "game-over@ifsotware.solutions"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}

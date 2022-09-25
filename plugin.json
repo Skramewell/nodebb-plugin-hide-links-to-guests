@@ -1,0 +1,8 @@
+{
+  "id": "nodebb-plugin-hide-links-to-guests",
+  "name": "Hide links to guests",
+  "description": "Hide links to guest for NodeBB",
+  "url": "https://github.com/Skramewell/nodebb-plugin-hide-links-to-guests",
+  "library": "./library.js",
+  "hooks": [{ "hook": "filter:post.getPosts", "method": "alterContent" }]
+}
