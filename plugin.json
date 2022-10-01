@@ -6,5 +6,12 @@
   "library": "./library.js",
   "languages": "languages",
   "defaultLang": "en-GB",
-  "hooks": [{ "hook": "filter:post.getPosts", "method": "alterContent" }]
+  "hooks": [
+    { "hook": "static:app.load", "method": "init" },
+    { "hook": "filter:post.getPosts", "method": "alterContent" },
+    { "hook": "filter:admin.header.build", "method": "addAdminNavigation" }
+  ],
+  "templates": "static/templates",
+  "modules":{"../admin/plugins/hide-content.js":"./static/lib/hide-content.js"}
+  
 }
