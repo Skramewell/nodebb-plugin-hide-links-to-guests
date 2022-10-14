@@ -8,7 +8,7 @@ plugin.alterContent = function (params, callback) {
       const regexHrefTag = new RegExp("<a[^>]*>[^<]*</a>", "g");
       post.content = post.content.replace(
         regexHrefTag,
-        '<a href="/login">[[hidetoguest:hide-message]]</a>'
+        '<a href="/login" class="hide-to-guest">[[hidetoguest:hide-message]]</a>'
       );
     }
   }
