@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-hide-links-to-guests",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Hide links to guest for NodeBB",
   "main": "library.js",
   "repository": {
